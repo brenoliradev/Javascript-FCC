@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.content p {
+    font-size: 1.75rem;
+    color: #020202;
+}
+
+#palind {
+    width: 17.5rem;
+    height: 2rem;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+
+#clickme {
+    width: 14rem;
+    height: 2rem;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+#clickme:hover {
+    background-color: rgb(1, 167, 167);
+}
+
+/* Media queries */
+
+@media  (max-width: 600px) {
+    #bin {
+        height: 1.8rem;
+        width: 25vw;
+        font-size: 14px;
+    }
+    #decinp {
+        height: 1.5rem;
+        width: 20vw;
+    }
+}
